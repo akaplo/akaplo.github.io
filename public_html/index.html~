@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html> 
+<head>
+<a href="resume.html">Check out my (fairly inexistant) resume!</a> 
+<h1> Aaron Kaplowitz</h1>
+<h3> First year computer science student
+<p> University of Massachusetts at Amherst
+<p> Interests: Emerging technologies and the integration of technology in human culture.</h3>
+<img src=umass_logo.jpg alt=Woops there should be a picture here.../>
+ I CAN HAZ MINUTEMEN 
+<hr />
+<title></title>
+ </head> 
+<body>
+<p> {ding dong}
+ <p> Hello! My name is Elder Price, and I would like to share with you the most amazing book.
+<p> {ding dong}
+<p> Hello. My name is Elder Grant! It's a book about America a long long time ago.
+<p> It has so many awesome parts.
+<p> You simply won't believe how much this book will change your life!
+<a href=http://www.youtube.com/watch?v=vmp-xmguqh4> Go here!</a>
+<p>
+<p>
+<p>
+<br />
+<img src=epic_fail.jpg alt=this should be a picture, damnit/>
+<p>
+<h1> This is a footer, yo </h1>
+</body> 
+</html>

@@ -1,0 +1,89 @@
+body {
+  min-height: 2000px;
+  padding-top: 0px;
+}
+
+.arjun-content {
+  font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	font-weight: lighter;
+  font-size: 12pt
+}
+
+.navbar-default {
+  background-image: -webkit-linear-gradient(top, #B2B2B2 0%, #cccccc 100%);
+  background-image:      -o-linear-gradient(top, #B2B2B2 0%, #cccccc 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#B2B2B2), to(#cccccc));
+  background-image:         linear-gradient(to bottom, #cccccc 0%, #cccccc 100%);
+  border: none;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-brand:hover {
+  color: #fbd668
+}
+
+.navbar-default .navbar-nav > li > a,
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: black;
+  background-color: white;
+  border-bottom: white;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: black;
+  background-color: #fbd668;
+  border-bottom: white;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover {
+ background-color: #fbd668
+}
+
+.col-sm-6{
+
+}
+
+p	{
+	text-align:center;
+	}
+		
+		
+h1	{
+	text-align:center;
+	padding-top:100px;
+	}
+	
+h2{ 	
+	font-size:125%;
+	font-weight:lighter;
+	text-align:center;
+	}
+
+h3	{
+	text-align:center;
+	}	
+	
+#font{
+	
+	}
+
+body {
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;		
+	}
+
+.hideLink{
+	text-decoration:none;
+	}
+	
+	
+footer{
+	text-decoration:overline;
+	}
