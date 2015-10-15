@@ -55,21 +55,20 @@
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li >
-              <a href="./resumeSept15.pdf">Resume</a>
-            </li>
-<!--
-            <li >
               <a href="about.html">About</a>
             </li>
             <li >
               <a href="software.html">Software</a>
             </li>
 
-   
+            <li >
+              <a href="./resumeSept15.pdf">Résumé</a>
+            </li>
+
             <li >
               <a href="../bio">Biography</a>
             </li>
--->
+
           </ul>
         </div>
       </div>
@@ -104,11 +103,14 @@
 
 <h3>About</h3>
 
-<p>I'm from eastern Massachusetts.  I've loved computers since I was young, and
-	I want to spend my time building software that makes an impact on
-	people's lives.  I now study computer science at UMass Amherst, and as a junior
-	I'm thinking about the next level.  Stay tuned for future projects that just 
-	might make a difference some day!</p>
+<p>I'm from a small-ish town in Massachusetts.  Since I was young, computers always 
+	were my specialty, and I was the first contact for support by my 
+	family, friends, and eventually teachers.  It was then that I decided that 
+	I wanted to spend my life building software that makes an impact on
+	people's lives.  I now study computer science at UMass Amherst!  I consider myself
+	a hacker, and I love to poke at systems and see where vulnerabilities are and
+	incorporate what I learn into my own projects.  It's been a slow start, but stay tuned
+	for future projects that just might make a difference some day!</p>
 
 <h3>On The Web</h3>
 
@@ -133,18 +135,20 @@
 
 <div class="col-sm-6">
 
-<h3>Current Courses (Fall 2015)</h3>
+<h3>Current Courses (Spring 2015)</h3>
 
 <ul>
 
-  <li><b>CS326</b> - Web Programming - I work on a team of 5 others, and we plan
- 	to bring a new way to find your lost items to the Internet by the end of 2015!</li>
+  <li><b>CS220</b> - Programming Methodology: Functional programming
+  	in Scala and applications of other important CS knowledge (git, REPLs, etc)</li>
 
-  <li><b>CS377</b> - Operating Systems</li>
+  <li><b>CS250</b> - Intro to Computation: Discrete math course focusing
+    on induction proofs, graph theory, finite state automata, and predicate logic</li>
 
-  <li><b>CS453</b> - Computer Networks</li>
+  <li><b>M235</b> - Into to Linear Algebra: Matrices, vectors, and manipulating them.</li>
 
-  <li><b>Geology 101</b> - The Earth</li>
+  <li><b>E115</b> - American Experience: Understanding identity (social, racial, etc) through literature
+  </li>
   
 </ul>
 
