@@ -9,6 +9,10 @@ body {
   font-size: 12pt
 }
 
+.alert {
+  text-align: center;
+}
+
 .navbar-default {
   background-image: -webkit-linear-gradient(top, #B2B2B2 0%, #cccccc 100%);
   background-image:      -o-linear-gradient(top, #B2B2B2 0%, #cccccc 100%);
@@ -54,14 +58,14 @@ body {
 p	{
 	text-align:center;
 	}
-		
-		
+
+
 h1	{
 	text-align:center;
 	padding-top:100px;
 	}
-	
-h2{ 	
+
+h2{
 	font-size:125%;
 	font-weight:lighter;
 	text-align:center;
@@ -69,21 +73,21 @@ h2{
 
 h3	{
 	text-align:center;
-	}	
-	
+	}
+
 #font{
-	
+
 	}
 
 body {
-	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;		
+	font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
 	}
 
 .hideLink{
 	text-decoration:none;
 	}
-	
-	
+
+
 footer{
 	text-decoration:overline;
 	}
