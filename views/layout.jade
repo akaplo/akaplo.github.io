@@ -3,15 +3,21 @@ block body
   nav(class="navbar navbar-default navbar-fixed-top")
     div(class="container-fluid")
       div(class="navbar-header")
-        a(class="navbar-brand" href="#")
+        button(type="button", class="navbar-toggle collapsed", data-toggle="collapse", data-target="#navbar", aria-expanded="false", aria-controls="navbar")
+            span(class="sr-only") Toggle navigation
+            span(class="icon-bar")
+            span(class="icon-bar")
+            span(class="icon-bar")
+        a(class="navbar-brand" href="/")
           img(alt="Logo" src="/images/logo_small.png")
-      ul(class="nav navbar-nav")
-        li(class="active")
-          a(href="/") Home
-        li
-          a(href="/about") About
-        li
-          a(href="/contact") Contact
+      div(id="navbar", class="collapse navbar-collapse")
+        ul(class="nav navbar-nav")
+          li(class="active")
+            a(href="/") Home
+          li
+            a(href="/about") About
+          li
+            a(href="/contact") Contact
   div.main-div
     block content
 
