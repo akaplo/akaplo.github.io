@@ -6,8 +6,8 @@ var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
-var routes = require('./routes/index');
-var contact = require('./routes/contact');
+var home = require('./routes/home_page');
+var contact = require('./routes/contact_page');
 
 var app = express();
 
@@ -23,13 +23,14 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use('/', routes);
 app.use('/contact', contact);
-
+app.use('/', home);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  var err = new Error('Not Found');
+  console.log(req.method);
+  var err = new Error('File Not Found');
   err.status = 404;
+  err.baseUrl = req.originalUrl
   next(err);
 });
 
