@@ -1,0 +1,7 @@
+extends head
+block body
+  h1.error #{error.status}!  Something's wrong here.
+  h1 Error: #{error.message}
+  h2 Try going back.  Sorry!
+  if error.stack
+    pre #{error.stack}

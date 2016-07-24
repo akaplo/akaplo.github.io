@@ -1,0 +1,56 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css')
+    script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js')
+  body
+    nav(class="navbar navbar-info")
+      div(class="container-fluid")
+        div(class="navbar-header")
+          button(type="button", class="navbar-toggle collapsed",
+            data-toggle="collapse", data-target="#bs-example-navbar-collapse-1",
+            aria-expanded="false")
+            span(class="sr-only") Toggle Navigation
+            span(class="icon-bar")
+            span(class="icon-bar")
+            span(class="icon-bar")
+          a(class="navbar-brand" href="#") brand-logo
+        
+        div(class="collapse navbar-collapse" id="bs-example-navbar-collapse-1")
+          ul(class="nav navbar-nav")
+            li(class="active")
+              a(href="#") Link
+                span(class="sr-only") (current)
+            li
+              a(href="#") Link
+            li(class="dropdown")
+              a(href="#", class="dropdown-toggle", data-toggle="dropdown",
+              role="button", aria-haspopup="true", aria-expanded="false")Dropdown 
+                span(class="caret")
+              ul(class="dropdown-menu")
+                li
+                  a(href="#") Action
+                li
+                  a(href="#") ANother action
+                
+            
+       //a.brand-logo(href='/') Aaron Kaplowitz
+       //ul.right.hide-on-med-and-down
+      //   li
+      ////    a(href="/home") home
+      //   li
+    //       a(href='/users') About
+    //     li
+    //       a(href='badges.html') Projects
+    //     li
+    //       a(href='collapsible.html') Resume
+    //      li.active
+    //        a(href="/contact") Contact
+
+
+     footer.page-footer
+       .footer-copyright
+         .container
+           | © 2016 Aaron Kaplowitz

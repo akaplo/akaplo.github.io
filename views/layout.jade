@@ -1,0 +1,48 @@
+//- doctype html
+//- html
+//-   head
+//-     title= title
+//-     link(rel='stylesheet', href='/stylesheets/style.css')
+//-     link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/css/materialize.min.css')
+//-     script(src='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js')
+//-   body
+//-     div(class="navbar-fixed")
+//-       nav(class=".nav-wrapper")
+//-          a.brand-logo(href='/') Aaron Kaplowitz
+//-          ul.right.hide-on-med-and-down
+//-            li
+//-             a(href="/home") home
+//-            li
+//-              a(href='/users') About
+//-            li
+//-              a(href='badges.html') Projects
+//-            li
+//-              a(href='collapsible.html') Resume
+//-             li
+//-               a(href="/contact") Contact
+//- 
+//- 
+//- 
+//-      footer.page-footer
+//-        .footer-copyright
+//-          .container
+//-            | © 2016 Aaron Kaplowitz
+
+extends head
+block body
+  nav(class="navbar navbar-default navbar-fixed-top")
+    div(class="container-fluid")
+      div(class="navbar-header")
+        a(class="navbar-brand" href="#")
+          img(alt="Brand" src="/images/logo_small.png")
+      ul(class="nav navbar-nav")
+        li(class="active")
+          a(href="/") Home
+        li()
+          a(href="/about") About
+  div(class="main-div")
+    block content
+
+  footer(class="footer")
+    div(class="container")
+      p(class="text-muted") Aaron
