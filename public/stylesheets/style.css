@@ -42,3 +42,7 @@ code {
   color: red;
   font-weight: lighter;
 }
+
+.center {
+  text-align: center;
+}
